@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="#fff">
+
+    <com.example.g7_user.dingdingimage.CircleImageView
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/iv_item_avatar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        />
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3++++++"/>
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4++++++"/>
+
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2++++++"/>
+
+</LinearLayout>
